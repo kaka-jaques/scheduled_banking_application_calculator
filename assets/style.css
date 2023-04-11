@@ -9,3 +9,10 @@ main{
 main .card{
     background-color: rgba(255, 255, 255, 0.288);
 }
+main .card-header h2{
+    color: white;
+    text-align: center;
+}
+.input-obj{
+    text-align: center;
+}
