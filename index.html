@@ -34,13 +34,24 @@
                     <h4>Capital Aplicado Mensalmente</h4>
                     <div class="input-group">
                         <span class="input-group-text">R$</span>
-                        <input class="form-control " type="number" name="" id="capInit"
-                            placeholder="Capital Aplicado Mensalmente" value="0.00">
+                        <input class="form-control " type="number" name="" id="capMonth"
+                            placeholder="Capital Aplicado Mensalmente" disabled>
                         <div class="input-group-text">
-                            <input type="checkbox" id="monthlyAppCheck">
+                            <input type="checkbox" id="monthlyAppCheck" onchange="monthlyApp()">
                             <span>&nbsp; Aplicar Mensalmente?</span>
                         </div>
                     </div>
+                </div>
+                <div class="input-obj">
+                    <h4>Taxas Bancárias</h4>
+                    <div class="input-group">
+                        <span class="input-group-text">SELIC Tx.</span>
+                        <input type="number" id="selictx" class="form-control">
+                        <span class="input-group-text">CDI Tx.</span>
+                        <input type="number" id="cditx" class="form-control">
+                    </div>
+                    <p id="selictxtext">Atualização Taxa Selic: </p>
+                    <p id="cditxtext">Atualização Taxa Selic: </p>
                 </div>
             </div>
             <div class="card-footer"></div>
