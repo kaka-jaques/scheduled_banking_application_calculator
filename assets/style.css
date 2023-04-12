@@ -16,3 +16,14 @@ main .card-header h2{
 .input-obj{
     text-align: center;
 }
+#cditxspan{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#selictxspan{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#selictxtext, #cditxtext{
+    text-align: justify;
+}

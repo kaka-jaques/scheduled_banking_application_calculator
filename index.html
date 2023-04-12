@@ -43,18 +43,35 @@
                     </div>
                 </div>
                 <div class="input-obj">
+                    <h4>Meses de Aplicação</h4>
+                    <div class="input-group">
+                        <span class="input-group-text">📆</span>
+                        <input class="form-control " type="number" name="" id="monthesApp"
+                            placeholder="Meses" value="1">
+                    </div>
+                </div>
+                <div class="input-obj">
                     <h4>Taxas Bancárias</h4>
                     <div class="input-group">
                         <span class="input-group-text">SELIC Tx.</span>
                         <input type="number" id="selictx" class="form-control">
-                        <span class="input-group-text">CDI Tx.</span>
+                        <span class="input-group-text" id="selictxspan">%</span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="input-group-text" id="cditxspan">CDI Tx.</span>
                         <input type="number" id="cditx" class="form-control">
+                        <span class="input-group-text">%</span>
                     </div>
                     <p id="selictxtext">Atualização Taxa Selic: </p>
-                    <p id="cditxtext">Atualização Taxa Selic: </p>
+                    <p id="cditxtext">Atualização Taxa CDI: </p>
+                </div>
+                <div class="col">
+                    <h2 id="rendimento">R$ 0,00</h2>
                 </div>
             </div>
-            <div class="card-footer"></div>
+            <div class="card-footer">
+                <p>Made with ❤ by <a href="https://www.linkedin.com/in/kalil-j-fakhouri-1744b321a/" target="_blank">Kalil J. Fakhouri</a></p>
+                <a href="https://github.com/kaka-jaques/" target="_blank">Github</a>
+            </div>
         </div>
     </main>
     <!-- JavaScript Bundle with Popper -->
